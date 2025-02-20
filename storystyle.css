@@ -32,8 +32,10 @@ body {
 @media (orientation: portrait) {
     #content {
       width: 100%;
-      padding-left: 0%;
-      padding-right: 0%;
+    }
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 

@@ -17,15 +17,18 @@ p{
     text-align: justify;
 }
 #nav-bar {
+    /* This is what makes the nav bar span the whole screen and aligns in a row and not a stack. */
     width:100%;
     display: flex;
     flex-direction: row;
 }
 .nav-item {
+    /* This is what makes the nav bar buttons be evenly spaced on the screen. */
     margin:auto;
     padding: 10px;
 }
 .nav-item a{
+    /* This is what gives the nav bar its style like color and font. */
     color: purple;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,8 +37,11 @@ p{
 @media (orientation: portrait) {
     #content {
       width: 100%;
-      padding-left: 0%;
-      padding-right: 0%;
+    }
+    body {
+        /* This took me a while to figure out, but because I gave the body a lot of padding when it is landscape, I needed to undo that for portrait. Otherwise, even when portrait, the context did span 100% of the screen, but stopped where I added the padding. */ 
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 
