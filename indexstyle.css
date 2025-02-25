@@ -46,14 +46,11 @@ p{
 }
 
 #gif-iframe {
-    width: 100%;
-    border: none; /* I used ChatGPT to figure out how to remove the border. */
+    width: 500px;
+    height: 200px;
+    border: none;  /* I used ChatGPT to figure out how to remove the border. */
+    object-fit: contain; 
   }
-
-#gif-iframe {
-    height: auto;
-    width: auto;
-}
 
 html {
     scroll-behavior: smooth;
