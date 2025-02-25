@@ -45,12 +45,16 @@ p{
     }
 }
 
-#ai {
-    font-size: .9em;
-    font-style: italic;
-}
-
 #gif-iframe {
     width: 100%;
     border: none; /* I used ChatGPT to figure out how to remove the border. */
   }
+
+#gif-iframe {
+    height: auto;
+    width: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
