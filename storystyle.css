@@ -9,6 +9,12 @@ h1 {font-family: Georgia, 'Times New Roman', Times, serif;
     color: purple;
 }
 
+h2{
+    text-align: left;
+    font-size: 2em;
+    color: purple;
+}
+
 body {
     padding-left: 25%;
     padding-right: 25%;
@@ -60,7 +66,7 @@ html {
 
 p{
     font-size: 1.5em;
-    text-align: justify;
+    text-align: left;
 }
 
 #methodology {
@@ -69,6 +75,10 @@ p{
 }
 
 #caption {
-    font-size: .8em;
+    font-size: 1em;
     text-align: left;
+}
+
+#bio{
+    color: purple;
 }
