@@ -49,8 +49,8 @@ img {
     height: auto;
 }
 
-#caption {
-    text-align: left;
+#download {
+    text-align: right;
     font-size: .8em;
 }
 
