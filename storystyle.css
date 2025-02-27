@@ -57,3 +57,9 @@ img {
 html {
     scroll-behavior: smooth;
 } /* We learned to do this in class so that scrolling goes more smoothly. */
+
+p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+
