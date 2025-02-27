@@ -63,3 +63,12 @@ p{
     text-align: justify;
 }
 
+#methodology {
+    font-style: italic;
+    font-size: .8em;
+}
+
+#caption {
+    font-size: .8em;
+    text-align: left;
+}
